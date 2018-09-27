@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.desyntakarmilas.resepku.ronde">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_bika"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.AppBarOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image_bika"
+                android:layout_height="200dp"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@drawable/bika"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal"
+                android:paddingVertical="10dp">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/puteh">
+                </View>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bahan : \n
+1. Bahan Utama yang harus disiapkan adalah 300 gram Tepung Sagu dan 100 gram Tepung Terigu yang biasa di gunakan untuk membuat roti (kadar protein sedang). Untuk merek nya, tergantung selera. \n
+2. 200 mililiter Air Kelapa yang di ambil dari Kelapa Segar. \n
+3. 11 gram ragi instant untuk pengembang. \n
+4. 600 ml Santan. Lebih baik di gunakan santan asli yang diambil dari buah kelapa yang tua. Gunakan yang santan kental nya aja supaya hasil nya lebih legit. \n
+5. 15 butir besar sampai 18 butir kecil Telur Ayam. Pisahkan putih telur nya dan mbil kuning telurnya aja. \n
+6. 1 sendok kecil atau sendok teh vanili dan garam dapur. \n
+7. 450 gram Gula Pasir Putih. Jangan menggunakan gula pasir kuning yang berwarna agak gelap, karena hasil jadinya nanti akan tercium aroma tebu. \n
+
+Langkah-Langkah : \n
+1. Ambil satu wadah yang ukurannya sedang. Campurkan 100 gram tepung terigu dan ragi instan. Aduk sampai kedua bahan tersebut tercampurdengan sempurna. \n
+2. Masukkan sedikit demi sedikit 200 ml air kelapa segar ke dalam tempat di langkah 1 sambil tetap di aduk pelan pelan. Pastikan ketiga bahan tersebut tercampur dan tidak ada gumpalan tepung. Diamkan sebentar atau sekitar 14-16 menit sambil mempersiapkan bahan yang lain. \n
+3. Ambil wadah lagi yang ukurannya lebih besar. Masukkan 400 gram gula pasir, 1 sendok garam dan vanili. Campur rata semua bahan tersebut menggunakan spatula. Masukkan satu persatu sambil di aduk 15 butir telur ayam ke dalam wadah ke dua. Aduk sampai semua bahan tercampur dengan sempurna. \n
+4. Kemudian ambil adonan bahan di wadah pertama yang sudah didiamkan selama kurang lebih 15 menit. Campurkan ke adonan di wadah kedua. Aduk sampai rata dan tambahkan 300 gram tepung Sagu sedikit demi sedkit ampbil tetap di aduk.\n
+5. Ambil 600 ml santan kental nya, masukkan sedikit demi sedkit de dalam adonan sambil tetap di aduk. Harap diperhatikan proses pengadukan dan pencampurannya supaya semua bahan bahan di atas bisa menyatu dengan sempurna. \n
+6. Untuk memastikan semua bahan tercmapur, saring adonan tadi menggunakan saringan dapur. \n
+7. Diamkan selama kurang lebih 2 jam supaya hasil jadi Kue Bika Ambon nya nanti mengembang dan keluar bentuk sarang tawon nya. \n
+8. Panaskan oven terlebih dahulu. \n
+9. Ambil loyang atau cetakan yang lain dan olesi minyak sedikit untuk menghindari kuenya lengket ke loyangnya. \n
+10. Masukkan semua adonan terakhir yang sudah di saring diatas ke dalam cetakannya. Untuk hasil sempurna, yang harus diperhatikan adalah adonan tadi tidak perlu di aduk kembali. Cukup tuangkan ke dalam loayang. \n
+11. Setelah dirasa oven sudah cukup panas, masukkan loyang ke dalamnya. Gunakan api sedang dan pintu oven biarkan terbuka sedikit. Hanya untuk menyalurkan hawa panas yang ada di dalamnya. Kalau pintu terlalu terbuka lebar, dikhawatirkan proses pemasakan Bika Ambon Medan nya lebih lama dan hasilnya tidak sempurna. \n
+12. Panggang sekitar 7-13 menit sampai warna kulit luarnya kuning kecoklatan."/>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.desyntakarmilas.resepku.ronde">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_tempe"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.AppBarOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image_tempe"
+                android:layout_height="200dp"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@drawable/tempe"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal"
+                android:paddingVertical="10dp">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/puteh">
+                </View>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bahan : \n
+1. Tempe kedelai : 2 potong \n
+2. Santan kelapa : 1 gelas \n
+3. Tepung beras : 1/2 glas \n
+4. Bawang putih : 5 siung \n
+5. Ketumbar : 1/2 sendok teh \n
+6. Garam, vestin : Secukupnya \n
+
+Langkah-Langkah : \n
+1. Langkah pertama Tempe di iris tempe dan dijemur hingga kering. \n
+2. Langkah kedua haluskan bawang putih, ketumbar dan garam, jika sudah halus lalu masukan tepung beras dan santan, buatlah hingga menjadi adonan agak kering. \n
+3. Angkat tempe yg sudah kering kini kita sudah siap untuk memasak, Celupkan tempe ke dalam adonan yg sudah sobat buat tadi dan goreng hingga kering dan berwarna kecoklatan. \n
+4. Jika sudah keripik tempe pun sudah berhasil dibuat Langkah terakhir tinggal simpan tempe di sebuah toples tutup rapat ini menjaga agar keripik tempe tetap awet dan SELESAI"/>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.desyntakarmilas.resepku.DetailActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_detail"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_dtl"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gudeg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal"
+                android:paddingVertical="10dp">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/puteh"></View>
+
+
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bahan : \n
+1. Garam 2 sendok makan. \n
+2. Kemiri yang disangrai 10 butir. \n
+3. Ketumbar yang sudah disangrai 1 sendok teh. \n
+4. Bawang merah 15 butir. \n
+5. Bawang putih 10 butir. \n
+6. Merica bubuk setengah sendok teh. \n
+7. Nangka muda kurang lebih 1 kg. \n
+8. Santan 2 liter. \n
+9. Air kelapa 1 liter. \n
+10. Lengkuas yang diiris memangjang. \n
+11. Daun salam 5 lembar. \n
+12.Telur rebus (sesuai selera Anda). \n
+13. Gula aren 200 gram. \n
+
+Langkah-Langkah : \n
+1. Cuci nangka yang tadi sudah Anda siapkan, lalu dipotong dadu. \n
+2. Rebus nangka tersebut beberapa menit kemudian tiriskan. \n
+3. Masukkan telur rebus, gula aren, dan nangka yang sudah dipotong tadi ke panci. Sebelumnya, Anda perlu memberi alas pada panci dengan beberapa lembar daun salam yang tadi disiapkan, sedangkan diatasnya diletakkan irisan lengkuas. \n
+4. Haluskan bumbu-bumbu kemudian campurkan dengan setengah air kelapa. Lalu aduk merata dan tuangkan pada panci. \n
+5. Tuangkan air kelapa yang tidak dicampur sampai telur dan nangka semuanya terendam kemudian tutup pancinya. \n
+6. Masak selama kurang lebih 2 jam dengan api sedang tanpa membuka tutup panci. \n
+7.Jika air sudah menyusut, sisihkan, dan angkat telur. \n
+8. Tuangkan santan dan aduk sambil menghancurkan potongan nangka. Telur dimasukkan lagi hingga sedikit terendam dengan nangka. \n
+9. Masak kembali kurang lebih 3 sampai 4 jam dengan api kecil sambil diaduk perlahan. \n
+10. Jika santan sudah habis dan gudeg dirasa sudah berwarna coklat kemerahan itu berarti gudeg yang Anda buat sudah matang."/>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

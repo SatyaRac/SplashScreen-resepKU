@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#FF3366FF</color>
+    <color name="colorAccent">#FF0066CC</color>
+    <color name="colorbaru1">#FF00CCFF</color>
+    <color name="colorbaru2">#455a64</color>
+    <color name="putih">#FFFFFFFF</color>
+    <color name="puteh">#fff</color>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.desyntakarmilas.resepku.ronde">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_eskrim"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.AppBarOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image_eskrim"
+                android:layout_height="200dp"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@drawable/eskrim"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal"
+                android:paddingVertical="10dp">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/puteh">
+                </View>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bahan : \n
+1. Vanili 1 sdm \n
+2. Gula pasir 200 g \n
+3. Tepung maizena 15 g \n
+4. Susu segar 1 L \n
+5. Kuning telur ayam 4 butir, kocok. \n
+
+Langkah-Langkah : \n
+1. Tuang susu segar dan gula pasir ke dalam panci, kemudian masak hingga mendidih sembari terus mengaduk-aduk. \n
+2. Ambil 1 sdm susu, campurkan dengan tepung maizena, aduk sampai larut. \n
+3. Setelah campuran tersebut telah tercampur sempurna, tuang ke dalam rebusan susu pertama, aduk hingga merata. \n
+4. Kemudian tambahkan vanili, aduk hingga rata. \n
+5. Saring susu menggunakan kain tipis ke dalam wadah lain. \n
+6. Setelah susu tersaring sempurna, tuangkan kuning telur ke dalamnya, aduk hingga rata. Masukkan kuning telur secara perlahan. \n
+7. Diamkan selama 10 menit. Lalu masukkan ke dalam lemari es / freezer. \n
+8. Tunggu selama 15 menit, lalu aduk kembali es krimnya. Lakukan hal tersebut sebanyak 3 kali agar mendapatkan hasil es krim yang halus dan lembut. \n
+9. Terakhir masukkan ke dalam freezer dan tunggu selama 8 jam agar dapat membeku sempurna."/>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

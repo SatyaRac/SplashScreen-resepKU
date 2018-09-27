@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.desyntakarmilas.resepku.dawet">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_dawet"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.AppBarOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/image_dawet"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dawet"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal"
+                android:paddingVertical="10dp">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/puteh"/>
+
+
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bahan: \n
+1. Tepung beras 250 gram \n
+2. Tepung tapioka 250 gram \n
+3. Air sari daun pandan 100 ml \n
+4. Air matang 600 ml \n
+5. Es batu serut secukupnya \n
+6. Santan 1 liter \n
+7. Daun pandan 3 lembar \n
+8. Garam 1/2 sendok teh /n
+9. Gula merah aren 500 gram, disisir \n
+10. Gula putih 50 gram \n
+11. Air 250 ml \n
+
+Langkah-Langkah : \n
+1. Pertama campur bahan berupa tepung beras, daun pandan, tepung tapioka, dan  air. Aduk rata. Rebus hingga mengental. \n
+2. Cetak adonan dawet menggunakan alat cetak dawet. Kerjakan hingga adonan habis. Siapkan wadah isi dengan air hangat dibawah cetakan dawet supaya hasil cetakan dawetnya bagus dan tidak menggumpal. Sisihkan. \n
+3. Dalam membuat kuah santan bisa dilakukan dengan merebus santan, daun pandan juga garam hingga mendidih sambil terus diaduk agar santan tidak pecah. Angkat dan dinginkan. Sisihkan. \n
+4. Buat larutan gula merah dengan cara rebus air, gula merah juga gula putih sampai mendidih. Aduk rata. Angkat lalu dinginkan. \n
+5. Siapkan gelas saji, kemuadian anda tambahkan dawet secukupnya, setelah itu kemudian di siram dengan kuah santannya. Jangan lupa pula tuangkan larutan gula merahnya. Tambahkan es batu serut. \n
+6. Es dawet ayu siap disajikan."/>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

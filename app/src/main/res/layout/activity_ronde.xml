@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.desyntakarmilas.resepku.ronde">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_ronde"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.AppBarOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image_ronde"
+                android:layout_height="200dp"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@drawable/ronde"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal"
+                android:paddingVertical="10dp">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/puteh">
+                </View>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bahan : \n
+1. 150 g tepung ketan \n
+2. 1/8 sdt garam \n
+3. 1 sdt gula pasir \n
+4. 150 g air dingin \n
+5. Pewarna makanan warna hijau dan merah muda \n
+6. 30 g kacang tanah/kacang mete, sangrai \n
+7. 1/2sdm wijen sangrai \n
+8. 35 g gula pasir halus \n
+9. 1/2 sdm air \n
+10. 250 g jahe \n
+11. 4 lembar daun jeruk \n
+12. 2 lembar daun pandan \n
+13. 300 g gula pasir \n
+14. 2.000 ml air \n
+15. Manisan kolang-kaling, iris tipis \n
+16. Roti tawar, iris bentuk dadu 1 cm \n
+17. Kacang tanah sangrai, belah-belah \n
+
+Langkah-Langkah : \n
+1. Ronde: Campur tepung ketan, garam, gula dan air, lalu aduk dan uleni hingga adonan bisa dipulung. Bagi adonan menjadi 3 bagian. Beri pewarna hijau pada satu bagian adonan, warna merah muda pada bagian yang lain dan satu bagian lagi dibiarkan tetap berwarna putih, sisihkan. \n
+2. Isi: Cincang kacang sangrai, lalu aduk bersama wijen sangrai, sisihkan. Masak gula dan air hingga gula larut, masukkan campuran kacang dan wijen. Masak hingga bahan tercampur, angkat, dinginkan. \n
+3. Kuah jahe: Bakar jahe hingga kulitnya agak gosong, kupas, memarkan. Taruh jahe bersama daun jeruk, daun pandan, gula dan air dalam panci, jerang di atas api. Masak hingga mendidih, kecilkan api, rebus terus selama 10 menit, angkat. \n
+4. Masak air dalam panci hingga mendidih, siapkan air dingin dalam mangkuk besar untuk merendam ronde yang telah matang. Ambil ±2 sdt adonan ronde, bentuk bulat sebesar kelereng, pipihkan, taruh ½ sdt adonan isi di atasnya. Lipat bagian pinggir adonan ke tengah hingga tertutup dan bentuk adonan menjadi bulat kembali, sisihkan. \n
+5. Lanjutkan membuat biji ronde dari sisa bahan, lalu masukkan ke dalam air mendidih dalam panci, tunggu hingga bulatan mengapung. Angkat biji ronde yang telah mengapung, tiriskan. Celupkan ke dalam air dingin dalam mangkuk, lalu masukkan ke dalam kuah jahe dalam panci.\n
+6. Sajikan kuah jahe beserta biji ronde dalam mangkuk-mangkuk saji. Tambahkan manisan kolang-kaling dan roti tawar iris. Taburi kacang tanah sangrai, hidangkan selagi panas."/>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

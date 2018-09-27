@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.desyntakarmilas.resepku.tengkleng">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_tengkleng"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.AppBarOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/image_tengkleng"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tengkleng2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal"
+                android:paddingVertical="10dp">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/puteh"></View>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bahan : \n
+1. 1 kg tulang ayam. \n
+2. secukupnya jeruk nipis. \n
+3. 1 lmbr daun salam. \n
+4. 2 lmbr daun jeruk. \n
+5. 1 btg sereh, keprek. \n
+6. 1 ruas jahe, keprek. \n
+7. secukupnya air. \n
+8. minyak goreng. \n
+9. secukupnya gula jawa gula pasir dan garam. \n
+10. bila suka penyedap. \n
+11. secukupnya cabe rawit merah utuh jika suka pedas. \n
+12. 6 siung bawang merah. \n
+13. 5 siung bawang putih. \n
+14. sejumput jintan. \n
+15. 1 sdt ketumbar. \n
+16. 1 ruas kunyit,bakar. \n
+17. 5 butir kemiri. \n
+18. 3 buah cabe merah, rebus dulu. \n
+
+
+Langkah-Langkah : \n
+1.Cuci bersih tulang ayam/ayam pake jeruk nipis ya biar keset dan bau anyir hilang. sisihkan. \n
+2.Rebus sbntr tulang ayam dan cabe kmd buang air. sisihkan. \n
+3.Ulek bumbu halus, keprek jahe dan sereh. sisihkan. \n
+4.Panaskan minyak goreng, tumis bumbu halus hingga harum dan bnr2 matang kmd masukkan daun salam daun jeruk sereh dan jahe. tumis2 hingga rata kmd beri air secukupnya. \n
+5.Tunggu sbntr hingga air mendidih kmd masukkan tulang ayam/ayam. bumbui gula garam penyedap. \n
+6.Tunggu hingga ayam bnr2 empuk dan rasa sdh oke. angkat sajikan dg taburan bawang goreng dan nasi hangat. "/>
+
+            </FrameLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
